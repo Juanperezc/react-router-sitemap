@@ -53,6 +53,8 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
     "phantomjs-prebuilt": "^2.1.7",
+    "react": "^17.0.2",
+    "react-router": "^5.2.0",
     "webpack": "^1.13.0",
     "webpack-node-externals": "^1.2.0"
   },

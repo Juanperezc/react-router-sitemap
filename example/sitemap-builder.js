@@ -48,11 +48,11 @@ const paramsConfig = {
 		projects
 	]
 };
-
+/* console.log('params', paramsConfig); */
 (
 	new Sitemap(router)
 		.filterPaths(filterConfig)
 		.applyParams(paramsConfig)
-		.build('http://my-site.ru', { limitCountPaths: 5000 })
+		.build('http://my-site.ru', { limitCountPaths: 80000 })
 		.save('./sitemap.xml', '/static/')
 );
